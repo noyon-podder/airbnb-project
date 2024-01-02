@@ -7,3 +7,13 @@ body,
 :root {
   height: 100%;
 }
+
+/* custom scrollbar hidden in  dashboard page  */
+
+.hidden-scrollbar::-webkit-scrollbar {
+  width: 0 !important; /* This hides the scrollbar in Webkit browsers like Chrome and Safari */
+}
+
+.hidden-scrollbar {
+  scrollbar-width: none; /* This hides the scrollbar in Firefox */
+}
